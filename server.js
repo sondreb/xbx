@@ -12,17 +12,20 @@ http.listen(port, function() {
 
 // setup my socket server
 var io = require('socket.io')(http);
- 
+
 io.on('connection', function(socket) {
     console.log('New connection');
- 
+
     socket.on('message', function(msg) {
         console.log('Got message from client: ' + msg);
     });
-});
- 
- // Called when the client calls socket.emit('move')
-socket.on('move', function(msg) {
-    socket.broadcast.emit('move', msg);
-});
 
+
+    // Called when the client calls socket.emit('move')
+    socket.on('move', function(msg) {
+        socket.broadcast.emit('move', msg);
+    });
+
+
+
+});
