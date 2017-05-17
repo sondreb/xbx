@@ -32,6 +32,11 @@ Navigate to:
 
 [http://localhost:5000](http://localhost:5000)
 
+## Public Endpoints
+
+### Gateway Hubs URL
+[http://xbx.azurewebsites.net/ws/hubs](http://xbx.azurewebsites.net/ws/hubs)
+
 ## License
     
 MIT © [Sondre Bjellås](http://sondreb.com)
