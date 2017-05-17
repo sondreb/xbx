@@ -34,8 +34,11 @@ Navigate to:
 
 ## Public Endpoints
 
+### Game URL
+[https://xbx.azurewebsites.net/](https://xbx.azurewebsites.net/)
+
 ### Gateway Hubs URL
-[http://xbx.azurewebsites.net/ws/hubs](http://xbx.azurewebsites.net/ws/hubs)
+[https://xbx-gateway.azurewebsites.net/ws/hubs](https://xbx-gateway.azurewebsites.net/ws/hubs)
 
 ## License
     
