@@ -5,7 +5,7 @@
   "main": "server.js",
   "private": true,
   "scripts": {
-    "start": "http-server src/game -p 5000"
+    "start": "http-server src -p 5000"
   },
   "repository": {
     "type": "git",
